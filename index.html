@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CV Online</title>
+    <link rel="stylesheet" href="styles.css">
+    <!-- Link para a biblioteca de ícones (exemplo: Font Awesome) -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <!-- lista com os itens do menu -->
+            <ul class="menu">
+                <li><a href="#" onclick="trocarConteudo('home')"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="#" onclick="trocarConteudo('conteudo1')">Sobre Mim</a></li>
+                <li><a href="#" onclick="trocarConteudo('conteudo2')">Experiência</a></li>
+                <li><a href="#" onclick="trocarConteudo('conteudo3')">Projetos</a></li>
+                <li><a href="#" onclick="trocarConteudo('conteudo4')">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div id="conteudo" class="conteudo">
+            <p>Bem-vindo ao meu CV Online! Clique nos links acima para saber mais.</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
